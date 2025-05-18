@@ -1,0 +1,70 @@
+body{
+    background-image: url(../../bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.top{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main{
+    display: flex;
+}
+
+main img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right p:nth-child(1){
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    max-width: 400px;
+}
+
+.right p:nth-child(2){
+    margin-left: 50px;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.button{
+    margin-left: 50px;
+    width: 150px;
+    color: white;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a :hover{
+    background-color: rgb(128, 0, 128, 0.6);
+    color: white;
+}
